@@ -4,10 +4,16 @@ NothScript is a programming language that provides a high-level and expressive s
 
 ## Installation
 
-To use NothScript, make sure you have Node.js installed. Then, you can run your code using the provided interpreter.
+To use NothScript, make sure you have Node.js installed.
 
 ```bash
-$ node 
+$ npm i -g pebrianz/nothscript#dist
+```
+
+Then, you can run your code using the provided interpreter.
+
+```bash
+$ ns index.ns
 ```
 
 ## Syntax Overview
