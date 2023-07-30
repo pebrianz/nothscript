@@ -60,6 +60,15 @@ fn add a:num b:num ::num => a + b;
 
 Arrow functions provide a more concise way to define simple functions.
 
+### Overload Function
+
+```nothscript
+fn add a:num b:num ::num => a + b;
+fn add a:str b:str ::str {
+   rn "{a} {b}";
+}
+```
+
 ### If-Else Statement
 
 ```nothscript
